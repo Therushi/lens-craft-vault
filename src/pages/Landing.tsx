@@ -1,7 +1,7 @@
-import { Navigation } from '@/components/Navigation';
-import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
-import { Camera, Shield, Share2, Download } from 'lucide-react';
+import { Navigation } from "@/components/Navigation";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import { Camera, Shield, Share2, Download } from "lucide-react";
 
 const Landing = () => {
   return (
@@ -14,11 +14,14 @@ const Landing = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Share Your Photography
               <br />
-              <span className="text-muted-foreground">Securely & Beautifully</span>
+              <span className="text-muted-foreground">
+                Securely & Beautifully
+              </span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-8">
-              The professional platform for photographers to deliver albums to clients with
-              secure access, elegant galleries, and seamless downloads.
+              The professional platform for photographers to deliver albums to
+              clients with secure access, elegant galleries, and seamless
+              downloads.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/photographer/login">
@@ -28,7 +31,11 @@ const Landing = () => {
                 </Button>
               </Link>
               <Link to="/client-login">
-                <Button size="lg" variant="outline" className="w-full sm:w-auto">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="w-full sm:w-auto"
+                >
                   Client Login
                 </Button>
               </Link>
@@ -88,8 +95,8 @@ const Landing = () => {
               Professional Photography Delivery
             </h2>
             <p className="text-muted-foreground mb-8">
-              Join photographers who trust PhotoShare to deliver their work to clients with
-              security, elegance, and ease.
+              Join photographers who trust PhotoShare to deliver their work to
+              clients with security, elegance, and ease.
             </p>
             <Link to="/photographer/login">
               <Button size="lg">Start Your Free Trial</Button>
